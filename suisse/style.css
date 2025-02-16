@@ -1,0 +1,27 @@
+.flag {
+  display: grid;
+  grid-template-columns: 1fr repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+
+.flag .cross {
+  background-color: white;
+}
+
+.flag .horizontal {
+  grid-column: 4 / 6;
+  grid-row: 2/8;
+}
+
+.flag .vertical {
+  grid-row: 4 / 6;
+  grid-column: 2 / 8;
+}
+
+body {
+  display: grid;
+  place-items: center;
+}

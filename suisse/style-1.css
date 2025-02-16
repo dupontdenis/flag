@@ -1,0 +1,32 @@
+ .swiss-flag {
+   width: 200px;
+   height: 200px;
+   background-color: #FF0000;
+   /* Rouge */
+   position: relative;
+ }
+
+ .cross {
+   position: absolute;
+   background-color: white;
+ }
+
+ .horizontal {
+   width: 100px;
+   height: 20px;
+   /* 1/6th of 100px */
+   top: 90px;
+   /* Centered vertically */
+   left: 50px;
+   /* Centered horizontally */
+ }
+
+ .vertical {
+   width: 20px;
+   /* 1/6th of 100px */
+   height: 100px;
+   top: 50px;
+   /* Centered vertically */
+   left: 90px;
+   /* Centered horizontally */
+ }
