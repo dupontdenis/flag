@@ -5,7 +5,7 @@
 
 .blue {
   background-color: blue;
-  order: -1
+
 }
 
 .white {
@@ -15,7 +15,7 @@
 
 .red {
   background-color: red;
-
+  order: 1;
 }
 
 .flag {
