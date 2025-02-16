@@ -1,6 +1,7 @@
 .flag {
   display: grid;
   grid-auto-flow: column;
+  border: 1px solid;
 }
 
 .blue {
