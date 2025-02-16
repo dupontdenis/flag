@@ -5,15 +5,15 @@
 
 .blue {
   background-color: blue;
-
+  order: -1
 }
 
- .white {
+.white {
   background-color: white;
 
 }
 
- .red {
+.red {
   background-color: red;
 
 }
