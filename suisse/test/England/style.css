@@ -1,0 +1,41 @@
+.flag {
+  display: grid;
+  grid-template-columns: 3cm 1cm 3cm;
+  grid-template-rows: 2cm 1cm 2cm;
+  width: 7cm;
+  height: 5cm;
+  background-color: red;
+}
+
+.flag {
+  grid-template-areas: "zone1 . zone2"
+    ". . ."
+    "zone3 . zone4";
+
+}
+
+.b1 {
+  grid-area: zone1;
+}
+
+.b2 {
+  grid-area: zone2;
+}
+
+.b3 {
+  grid-area: zone3;
+}
+
+.b4 {
+  grid-area: zone4;
+}
+
+.flag div {
+  background-color: white;
+}
+
+
+body {
+  display: grid;
+  place-items: center;
+}
